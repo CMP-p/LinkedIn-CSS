@@ -10,12 +10,39 @@ GRAY = #9FA2A6
 /* GLOBAL STYLES
 _____________________________________ */
 body {
-    background: #232C33;
+    background: #808C9C;
+}
+
+/*  links */
+a {
+    color:#232C33;
+}
+a:hover {
+    color: #FFC0A2;
+    text-decoration: None;
+}
+
+footer a {
+    color:#FFC0A2;
+}
+footer a:hover {
+    color: #808C9C;
+}
+.btn { /*buttons for special links*/
+    background: #808C9C;
+    color: #CCC;
+    text-decoration: none;
 }
 
 /* HOME
 _____________________________________ */
-
+.home {
+    background: url(../images/bg-mountain-sunset-horz.jpg) no-repeat;
+    background-size: cover;
+}
+.home .content-wrapper{
+    background: rgb(255, 255, 255 / 0.9);
+}
 
 /* RESUME
 _____________________________________ */
@@ -35,4 +62,6 @@ _____________________________________ */
 
 /* FOOTER
 _____________________________________ */
-
+footer {
+    background: #232C33;
+}
